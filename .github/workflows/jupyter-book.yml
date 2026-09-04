@@ -32,7 +32,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r materi/requirements.txt
-          pip install jupyter-book
+          pip install jupyter-book==1.0.4.post1
+
+      - name: Check Jupyter Book
+        run: |
+          jupyter-book --version
+          which jupyter-book
 
       - name: Build Jupyter Book
         run: |
@@ -40,17 +45,15 @@ jobs:
 
       - name: Check build result
         run: |
-          echo "=== Materi directory ==="
-          ls -lah materi
+          echo "=== BUILD DIRECTORY ==="
+          ls -lah materi/_build
 
-          echo "=== Build directory ==="
-          ls -lah materi/_build || true
+          echo "=== HTML DIRECTORY ==="
+          ls -lah materi/_build/html
 
-          echo "=== HTML directory ==="
-          ls -lah materi/_build/html || true
-
-          echo "=== Searching for index.html ==="
-          find . -name "index.html" -type f
+          echo "=== INDEX FILE ==="
+          test -f materi/_build/html/index.html
+          echo "index.html ditemukan!"
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
