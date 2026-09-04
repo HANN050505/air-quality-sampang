@@ -2,7 +2,4 @@ format: jb-book
 root: intro
 
 chapters:
-  - file: business-understanding
-  - file: data-understanding
-  - file: data-collection
   - file: notebooks
