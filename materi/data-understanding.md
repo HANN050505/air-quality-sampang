@@ -1,24 +1,24 @@
-\# Data Understanding
+# Data Understanding
 
 
 
-\## 1. Gambaran Umum Data
+## 1. Gambaran Umum Data
 
 
 
-Data yang digunakan dalam proyek ini merupakan data pengamatan kualitas udara yang diperoleh dari \*\*Copernicus Data Space Ecosystem\*\* dengan memanfaatkan data satelit \*\*Sentinel-5P\*\* dan instrumen \*\*TROPOMI (TROPOspheric Monitoring Instrument)\*\*.
+Data yang digunakan dalam proyek ini merupakan data pengamatan kualitas udara yang diperoleh dari **Copernicus Data Space Ecosystem** dengan memanfaatkan data satelit **Sentinel-5P** dan instrumen **TROPOMI (TROPOspheric Monitoring Instrument)**.
 
 
 
-Sentinel-5P merupakan satelit observasi bumi yang digunakan untuk memantau komposisi atmosfer. Salah satu parameter yang dapat diamati adalah \*\*Nitrogen Dioxide (NO₂)\*\*.
+Sentinel-5P merupakan satelit observasi bumi yang digunakan untuk memantau komposisi atmosfer. Salah satu parameter yang dapat diamati adalah **Nitrogen Dioxide (NO₂)**.
 
 
 
-Pada proyek ini, data NO₂ digunakan untuk melakukan pengamatan terhadap kondisi atmosfer di wilayah \*\*Kabupaten Sampang, Jawa Timur\*\*.
+Pada proyek ini, data NO₂ digunakan untuk melakukan pengamatan terhadap kondisi atmosfer di wilayah **Kabupaten Sampang, Jawa Timur**.
 
 
 
-\## 2. Sumber Data
+## 2. Sumber Data
 
 
 
@@ -26,7 +26,7 @@ Sumber data yang digunakan adalah:
 
 
 
-\*\*Copernicus Data Space Ecosystem\*\*
+**Copernicus Data Space Ecosystem**
 
 
 
@@ -38,21 +38,21 @@ Data yang digunakan dalam proyek ini berasal dari:
 
 
 
-\- Satelit: Sentinel-5P
+- Satelit: Sentinel-5P
 
-\- Instrumen: TROPOMI
+- Instrumen: TROPOMI
 
-\- Parameter: NO₂
+- Parameter: NO₂
 
-\- Wilayah: Kabupaten Sampang
+- Wilayah: Kabupaten Sampang
 
-\- Provinsi: Jawa Timur
+- Provinsi: Jawa Timur
 
-\- Negara: Indonesia
+- Negara: Indonesia
 
 
 
-\## 3. Parameter yang Digunakan
+## 3. Parameter yang Digunakan
 
 
 
@@ -60,7 +60,7 @@ Parameter utama yang digunakan adalah:
 
 
 
-\### NO₂ — Nitrogen Dioxide
+### NO₂ — Nitrogen Dioxide
 
 
 
@@ -76,23 +76,23 @@ Parameter ini digunakan untuk melihat:
 
 
 
-\- nilai NO₂ dari waktu ke waktu,
+- nilai NO₂ dari waktu ke waktu,
 
-\- perubahan nilai NO₂,
+- perubahan nilai NO₂,
 
-\- distribusi nilai NO₂,
+- distribusi nilai NO₂,
 
-\- nilai minimum dan maksimum,
+- nilai minimum dan maksimum,
 
-\- serta kemungkinan adanya nilai yang menyimpang.
-
-
-
-\## 4. Wilayah Pengamatan
+- serta kemungkinan adanya nilai yang menyimpang.
 
 
 
-Wilayah penelitian adalah \*\*Kabupaten Sampang, Jawa Timur, Indonesia\*\*.
+## 4. Wilayah Pengamatan
+
+
+
+Wilayah penelitian adalah **Kabupaten Sampang, Jawa Timur, Indonesia**.
 
 
 
@@ -108,7 +108,7 @@ Batas wilayah pengamatan digunakan untuk membatasi data satelit sehingga analisi
 
 
 
-\## 5. Periode Pengamatan
+## 5. Periode Pengamatan
 
 
 
@@ -116,7 +116,7 @@ Data dikumpulkan untuk periode:
 
 
 
-> \*\*24 Agustus 2025 – 24 Agustus 2026\*\*
+> **24 Agustus 2025 – 24 Agustus 2026**
 
 
 
@@ -128,7 +128,7 @@ Data yang tersedia kemudian diperiksa berdasarkan tanggal pengamatan untuk menge
 
 
 
-\## 6. Jenis Data
+## 6. Jenis Data
 
 
 
@@ -136,7 +136,7 @@ Data utama yang digunakan berupa data observasi atmosfer dari Sentinel-5P/TROPOM
 
 
 
-Data kemudian diproses menjadi data deret waktu (\*time series\*) sehingga setiap pengamatan dapat dikaitkan dengan tanggal tertentu.
+Data kemudian diproses menjadi data deret waktu (*time series*) sehingga setiap pengamatan dapat dikaitkan dengan tanggal tertentu.
 
 
 
@@ -160,7 +160,7 @@ Data tersebut kemudian digunakan untuk analisis statistik dan visualisasi.
 
 
 
-\## 7. Karakteristik Data
+## 7. Karakteristik Data
 
 
 
@@ -168,25 +168,25 @@ Dataset hasil pengambilan data perlu diperiksa sebelum dilakukan analisis. Pemer
 
 
 
-1\. Jumlah observasi.
+1. Jumlah observasi.
 
-2\. Jumlah variabel.
+2. Jumlah variabel.
 
-3\. Tipe data setiap variabel.
+3. Tipe data setiap variabel.
 
-4\. Rentang tanggal pengamatan.
+4. Rentang tanggal pengamatan.
 
-5\. Nilai minimum dan maksimum.
+5. Nilai minimum dan maksimum.
 
-6\. Nilai rata-rata.
+6. Nilai rata-rata.
 
-7\. Nilai median.
+7. Nilai median.
 
-8\. Distribusi data.
+8. Distribusi data.
 
-9\. Data yang hilang.
+9. Data yang hilang.
 
-10\. Nilai yang berpotensi menjadi \*outlier\*.
+10. Nilai yang berpotensi menjadi *outlier*.
 
 
 
@@ -194,15 +194,15 @@ Tahap pemeriksaan ini dilakukan untuk memastikan dataset dapat digunakan untuk p
 
 
 
-\## 8. Kualitas dan Kelengkapan Data
+## 8. Kualitas dan Kelengkapan Data
 
 
 
-Tidak semua tanggal dalam periode pengamatan harus memiliki data yang tersedia. Oleh karena itu, dilakukan pemeriksaan terhadap tanggal pengamatan untuk mengetahui adanya \*missing dates\*.
+Tidak semua tanggal dalam periode pengamatan harus memiliki data yang tersedia. Oleh karena itu, dilakukan pemeriksaan terhadap tanggal pengamatan untuk mengetahui adanya *missing dates*.
 
 
 
-Selain pemeriksaan tanggal, dilakukan pemeriksaan terhadap nilai NO₂ untuk mengetahui apakah terdapat nilai kosong (\*missing values\*).
+Selain pemeriksaan tanggal, dilakukan pemeriksaan terhadap nilai NO₂ untuk mengetahui apakah terdapat nilai kosong (*missing values*).
 
 
 
@@ -210,7 +210,7 @@ Kelengkapan data akan dihitung dengan membandingkan jumlah tanggal yang tersedia
 
 
 
-\## 9. Persiapan untuk Analisis
+## 9. Persiapan untuk Analisis
 
 
 
@@ -222,19 +222,19 @@ Eksplorasi meliputi:
 
 
 
-\- pemeriksaan struktur dataset,
+- pemeriksaan struktur dataset,
 
-\- statistik deskriptif,
+- statistik deskriptif,
 
-\- pemeriksaan \*missing values\*,
+- pemeriksaan *missing values*,
 
-\- identifikasi \*outliers\*,
+- identifikasi *outliers*,
 
-\- pemeriksaan kemungkinan \*noise\*,
+- pemeriksaan kemungkinan *noise*,
 
-\- visualisasi data dalam bentuk grafik,
+- visualisasi data dalam bentuk grafik,
 
-\- serta visualisasi wilayah menggunakan peta.
+- serta visualisasi wilayah menggunakan peta.
 
 
 

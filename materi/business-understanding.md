@@ -1,8 +1,8 @@
-\# Business Understanding
+# Business Understanding
 
 
 
-\## 1. Latar Belakang
+## 1. Latar Belakang
 
 
 
@@ -14,19 +14,19 @@ Untuk mengetahui kondisi kualitas udara, diperlukan data yang dapat digunakan un
 
 
 
-Pada proyek ini, pengamatan kualitas udara dilakukan pada wilayah \*\*Kabupaten Sampang, Jawa Timur\*\*, dengan memanfaatkan data observasi satelit \*\*Sentinel-5P/TROPOMI\*\* yang diperoleh melalui \*\*Copernicus Data Space Ecosystem\*\*.
+Pada proyek ini, pengamatan kualitas udara dilakukan pada wilayah **Kabupaten Sampang, Jawa Timur**, dengan memanfaatkan data observasi satelit **Sentinel-5P/TROPOMI** yang diperoleh melalui **Copernicus Data Space Ecosystem**.
 
 
 
-Parameter yang menjadi fokus pengamatan pada tahap awal adalah \*\*Nitrogen Dioxide (NO₂)\*\*.
+Parameter yang menjadi fokus pengamatan pada tahap awal adalah **Nitrogen Dioxide (NO₂)**.
 
 
 
-\## 2. Indeks Kualitas Udara
+## 2. Indeks Kualitas Udara
 
 
 
-Indeks Kualitas Udara atau \*\*Air Quality Index (AQI)\*\* merupakan suatu indeks yang digunakan untuk menggambarkan kondisi kualitas udara berdasarkan konsentrasi polutan tertentu. AQI membantu menerjemahkan data konsentrasi polutan menjadi kategori kualitas udara yang lebih mudah dipahami oleh masyarakat.
+Indeks Kualitas Udara atau **Air Quality Index (AQI)** merupakan suatu indeks yang digunakan untuk menggambarkan kondisi kualitas udara berdasarkan konsentrasi polutan tertentu. AQI membantu menerjemahkan data konsentrasi polutan menjadi kategori kualitas udara yang lebih mudah dipahami oleh masyarakat.
 
 
 
@@ -38,37 +38,37 @@ Beberapa parameter polutan yang dapat digunakan dalam penilaian kualitas udara a
 
 
 
-\- \*\*NO₂ (Nitrogen Dioxide)\*\*
+- **NO₂ (Nitrogen Dioxide)**
 
-\- \*\*CO (Carbon Monoxide)\*\*
+- **CO (Carbon Monoxide)**
 
-\- \*\*SO₂ (Sulfur Dioxide)\*\*
+- **SO₂ (Sulfur Dioxide)**
 
-\- \*\*O₃ (Ozone)\*\*
+- **O₃ (Ozone)**
 
-\- \*\*PM2.5 (Particulate Matter 2.5)\*\*
+- **PM2.5 (Particulate Matter 2.5)**
 
-\- \*\*PM10 (Particulate Matter 10)\*\*
-
-
-
-Namun, tidak semua parameter tersebut digunakan dalam analisis pada proyek ini. Pengamatan difokuskan pada parameter \*\*NO₂\*\* karena data parameter tersebut tersedia dari sumber satelit yang digunakan dan sesuai dengan tujuan pengamatan atmosfer pada wilayah Kabupaten Sampang.
+- **PM10 (Particulate Matter 10)**
 
 
 
-> \*\*Catatan:\*\* Data NO₂ dari Sentinel-5P/TROPOMI yang digunakan dalam proyek ini tidak secara langsung merupakan nilai AQI. Data tersebut digunakan untuk mengamati karakteristik dan perubahan parameter NO₂ sebagai salah satu indikator polusi udara.
+Namun, tidak semua parameter tersebut digunakan dalam analisis pada proyek ini. Pengamatan difokuskan pada parameter **NO₂** karena data parameter tersebut tersedia dari sumber satelit yang digunakan dan sesuai dengan tujuan pengamatan atmosfer pada wilayah Kabupaten Sampang.
 
 
 
-\## 3. Polutan yang Diamati
+> **Catatan:** Data NO₂ dari Sentinel-5P/TROPOMI yang digunakan dalam proyek ini tidak secara langsung merupakan nilai AQI. Data tersebut digunakan untuk mengamati karakteristik dan perubahan parameter NO₂ sebagai salah satu indikator polusi udara.
 
 
 
-\### 3.1 Nitrogen Dioxide (NO₂)
+## 3. Polutan yang Diamati
 
 
 
-Nitrogen Dioxide atau \*\*NO₂\*\* merupakan salah satu gas pencemar udara yang berasal terutama dari proses pembakaran bahan bakar pada kendaraan bermotor, pembangkit listrik, kegiatan industri, dan sumber pembakaran lainnya.
+### 3.1 Nitrogen Dioxide (NO₂)
+
+
+
+Nitrogen Dioxide atau **NO₂** merupakan salah satu gas pencemar udara yang berasal terutama dari proses pembakaran bahan bakar pada kendaraan bermotor, pembangkit listrik, kegiatan industri, dan sumber pembakaran lainnya.
 
 
 
@@ -80,11 +80,11 @@ Dalam proyek ini, NO₂ dipilih sebagai parameter utama untuk diamati menggunaka
 
 
 
-\### 3.2 Carbon Monoxide (CO)
+### 3.2 Carbon Monoxide (CO)
 
 
 
-Carbon Monoxide atau \*\*CO\*\* merupakan gas yang dihasilkan terutama dari proses pembakaran yang tidak sempurna. Sumbernya dapat berasal dari kendaraan bermotor, pembakaran bahan bakar, serta aktivitas pembakaran lainnya.
+Carbon Monoxide atau **CO** merupakan gas yang dihasilkan terutama dari proses pembakaran yang tidak sempurna. Sumbernya dapat berasal dari kendaraan bermotor, pembakaran bahan bakar, serta aktivitas pembakaran lainnya.
 
 
 
@@ -92,11 +92,11 @@ CO merupakan salah satu parameter yang umum digunakan dalam pemantauan kualitas 
 
 
 
-\### 3.3 Sulfur Dioxide (SO₂)
+### 3.3 Sulfur Dioxide (SO₂)
 
 
 
-Sulfur Dioxide atau \*\*SO₂\*\* merupakan gas pencemar yang dapat dihasilkan dari pembakaran bahan bakar yang mengandung sulfur dan aktivitas industri tertentu.
+Sulfur Dioxide atau **SO₂** merupakan gas pencemar yang dapat dihasilkan dari pembakaran bahan bakar yang mengandung sulfur dan aktivitas industri tertentu.
 
 
 
@@ -104,11 +104,11 @@ SO₂ juga termasuk salah satu parameter yang dapat digunakan untuk menggambarka
 
 
 
-\### 3.4 Ozone (O₃)
+### 3.4 Ozone (O₃)
 
 
 
-Ozone atau \*\*O₃\*\* merupakan salah satu komponen atmosfer yang memiliki karakteristik berbeda bergantung pada lokasinya di atmosfer. Ozon di permukaan dapat terbentuk melalui reaksi kimia yang melibatkan beberapa polutan dan paparan sinar matahari.
+Ozone atau **O₃** merupakan salah satu komponen atmosfer yang memiliki karakteristik berbeda bergantung pada lokasinya di atmosfer. Ozon di permukaan dapat terbentuk melalui reaksi kimia yang melibatkan beberapa polutan dan paparan sinar matahari.
 
 
 
@@ -116,7 +116,7 @@ O₃ merupakan salah satu parameter yang juga dapat digunakan dalam pemantauan k
 
 
 
-\### 3.5 Particulate Matter (PM2.5 dan PM10)
+### 3.5 Particulate Matter (PM2.5 dan PM10)
 
 
 
@@ -128,7 +128,7 @@ PM2.5 memiliki ukuran yang lebih kecil dibandingkan PM10 sehingga dapat masuk le
 
 
 
-\## 4. Permasalahan
+## 4. Permasalahan
 
 
 
@@ -140,19 +140,19 @@ Selain itu, data hasil pengamatan perlu diperiksa untuk mengetahui:
 
 
 
-1\. Apakah terdapat data yang hilang (\*missing values\*).
+1. Apakah terdapat data yang hilang (*missing values*).
 
-2\. Apakah terdapat nilai yang menyimpang (\*outliers\*).
+2. Apakah terdapat nilai yang menyimpang (*outliers*).
 
-3\. Apakah terdapat indikasi \*noise\* pada data.
+3. Apakah terdapat indikasi *noise* pada data.
 
-4\. Bagaimana pola perubahan nilai NO₂ selama periode pengamatan.
+4. Bagaimana pola perubahan nilai NO₂ selama periode pengamatan.
 
-5\. Bagaimana distribusi nilai NO₂ pada wilayah Kabupaten Sampang.
+5. Bagaimana distribusi nilai NO₂ pada wilayah Kabupaten Sampang.
 
 
 
-\## 5. Tujuan Analisis
+## 5. Tujuan Analisis
 
 
 
@@ -160,23 +160,23 @@ Tujuan dari analisis ini adalah:
 
 
 
-1\. Mengumpulkan data NO₂ Kabupaten Sampang dari Copernicus Data Space Ecosystem.
+1. Mengumpulkan data NO₂ Kabupaten Sampang dari Copernicus Data Space Ecosystem.
 
-2\. Memahami karakteristik dataset yang diperoleh dari Sentinel-5P/TROPOMI.
+2. Memahami karakteristik dataset yang diperoleh dari Sentinel-5P/TROPOMI.
 
-3\. Mengeksplorasi perubahan nilai NO₂ selama periode 24 Agustus 2025 sampai 24 Agustus 2026.
+3. Mengeksplorasi perubahan nilai NO₂ selama periode 24 Agustus 2025 sampai 24 Agustus 2026.
 
-4\. Menampilkan data dalam bentuk visualisasi grafik.
+4. Menampilkan data dalam bentuk visualisasi grafik.
 
-5\. Menampilkan lokasi wilayah pengamatan menggunakan visualisasi peta.
+5. Menampilkan lokasi wilayah pengamatan menggunakan visualisasi peta.
 
-6\. Mengidentifikasi \*missing values\*, \*outliers\*, dan kemungkinan \*noise\* dalam dataset.
+6. Mengidentifikasi *missing values*, *outliers*, dan kemungkinan *noise* dalam dataset.
 
-7\. Menghasilkan dataset dan dokumentasi yang dapat digunakan untuk analisis pada pertemuan berikutnya.
+7. Menghasilkan dataset dan dokumentasi yang dapat digunakan untuk analisis pada pertemuan berikutnya.
 
 
 
-\## 6. Pertanyaan Analisis
+## 6. Pertanyaan Analisis
 
 
 
@@ -184,21 +184,21 @@ Berdasarkan permasalahan tersebut, pertanyaan yang ingin dijawab dalam analisis 
 
 
 
-1\. Bagaimana karakteristik data NO₂ di Kabupaten Sampang selama periode pengamatan?
+1. Bagaimana karakteristik data NO₂ di Kabupaten Sampang selama periode pengamatan?
 
-2\. Bagaimana perubahan nilai NO₂ dari waktu ke waktu?
+2. Bagaimana perubahan nilai NO₂ dari waktu ke waktu?
 
-3\. Apakah terdapat \*missing values\* dalam dataset?
+3. Apakah terdapat *missing values* dalam dataset?
 
-4\. Apakah terdapat nilai NO₂ yang dapat dikategorikan sebagai \*outlier\*?
+4. Apakah terdapat nilai NO₂ yang dapat dikategorikan sebagai *outlier*?
 
-5\. Bagaimana distribusi nilai NO₂ selama periode pengamatan?
+5. Bagaimana distribusi nilai NO₂ selama periode pengamatan?
 
-6\. Bagaimana kondisi data NO₂ secara keseluruhan berdasarkan hasil eksplorasi awal?
+6. Bagaimana kondisi data NO₂ secara keseluruhan berdasarkan hasil eksplorasi awal?
 
 
 
-\## 7. Wilayah dan Periode Pengamatan
+## 7. Wilayah dan Periode Pengamatan
 
 
 
@@ -206,7 +206,7 @@ Wilayah yang menjadi objek pengamatan adalah:
 
 
 
-> \*\*Kabupaten Sampang, Provinsi Jawa Timur, Indonesia\*\*
+> **Kabupaten Sampang, Provinsi Jawa Timur, Indonesia**
 
 
 
@@ -214,7 +214,7 @@ Periode pengamatan yang digunakan adalah:
 
 
 
-> \*\*24 Agustus 2025 – 24 Agustus 2026\*\*
+> **24 Agustus 2025 – 24 Agustus 2026**
 
 
 
