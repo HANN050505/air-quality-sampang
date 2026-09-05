@@ -1,14 +1,10 @@
-# Analisis Kualitas Udara Kabupaten Sampang
+# Identitas
 
 **Nama:** Raihan Aryanova  
-
 **NIM:** 24041110094
-
 **Email:** raihan@example.com  
-
 **Program Studi:** Informatika  
-
-**Universitas:** Universitas Trunojoyo Madura  
+**Universitas:** Universitas Trunodjoyo Madura  
 
 
 
